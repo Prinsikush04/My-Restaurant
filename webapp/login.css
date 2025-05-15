@@ -1,0 +1,23 @@
+@charset "UTF-8";
+body{
+	background:url('food.jpg');
+	 
+ height:100vh;
+ width:100%;
+ background-repeat:no-repeat;
+ background-size:cover;
+ z-index:-5;
+ font-size:25px;
+  
+}
+input{
+ padding:5px 5px;
+ }
+ 
+ 
+  @media (max-width: 400px) {
+            body{
+            font-size: 60px
+            }
+        }
+        

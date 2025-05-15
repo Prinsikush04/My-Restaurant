@@ -1,0 +1,109 @@
+ @charset "UTF-8";
+ body{
+ background:black;
+  
+ /*height:100%;
+ width:100%;*/
+/* background-repeat:no-repeat;
+ background-size:cover;
+ z-index:-5;*/
+  color :antiquewhite;
+  font-size: 20px;
+  font-style:italic;
+  text-shadow: -2px -3px 10px orange;
+  
+ }
+ 
+  
+ .heding{
+ color:white;
+ text-align:center;
+ font-style:italic;
+ }
+ .food-img{
+ text-align:center;
+ display:flex;
+ justify-content:center;
+ height:200px;
+ 
+ }
+.container-menu{
+        display: flex;
+    }
+    .box{
+        border: 2px solid orange;
+        padding: 30px;
+        margin: 15px;
+    }
+    #id1{
+        background-color: rgb(225, 72, 0);
+        box-shadow: -3px -3px 10px orange;
+    }
+    #id2{
+        background-color:rgb(225, 72, 0);
+        box-shadow: -3px -3px 10px orange;
+    }
+    #id3{
+        background-color: rgb(255, 72, 0);
+        box-shadow: -3px -3px 10px orange;
+    }
+    
+    .box h3{
+     text-align:center;
+     text-decoration:underline;
+    }
+    
+    .box h5{
+      font-size:20px;
+    }
+    
+    pre{
+      font-size:15px;
+    }
+  .heading-size{
+  
+  font-size:26px;
+  }
+  
+  .bill{
+  display:flex;
+  text-align:center;
+  Justify-content:center;
+  color:black;
+   
+  }
+    
+  .bill-containers{
+   position :relative;
+	width: 500px;
+	 height: 700px;
+	background: transparent;
+	border: 2px solid rgba(255,255,55,.5);
+	border-radius: 20px;
+	backdrop-filter: blur(20px);
+	box-shadow: 0 0 30px rgba(0 ,0,0,.5);
+	justify-content:center;
+	align-items:center;
+      overflow:hidden;  
+  }
+  
+   
+  .input-box{
+	 
+	margin:30px 20px;
+}
+ .input-box .input1{
+	 margin:5px 5px;
+	padding:5px 30px;
+}
+#submit{
+	
+	padding:5px 40px;
+	background-color:orange;
+}
+
+@media(max-width = 600px) {
+	.container-menu{
+        display: grid;
+    }
+}
